@@ -6,7 +6,7 @@
  * Grupo: Romã
  * Autores: 
  *      - Henrique Lima    -   riquelima00@gmail.com
- *      - Jose da Silva     -   zedasilva@example.com
+ *      - Augusto Fisco Milreu     -   gutofisco@gmail.com
  *      - Maria da Silva    -   marydasilva@example.com
  *      - Monica da Silva   -   nicadasilva@example.com
  */
