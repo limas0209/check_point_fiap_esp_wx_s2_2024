@@ -7,8 +7,7 @@
  * Autores: 
  *      - Henrique Lima    -   riquelima00@gmail.com
  *      - Augusto Fisco Milreu     -   gutofisco@gmail.com
- *      - Maria da Silva    -   marydasilva@example.com
- *      - Monica da Silva   -   nicadasilva@example.com
+ *      - Kayque Moraes    -   kaymoaraesdias@gmail.com
  */
 
 package br.com.fiap.twoespwx.libunclepresser;
