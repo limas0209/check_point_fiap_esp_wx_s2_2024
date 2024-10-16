@@ -1,9 +1,8 @@
 # Checkpoint Fiap ESP {W, X} [s2/2024]
 Projeto Checkpoint para a disciplina de "Domain Driven Design com Java", para os cursos de Engenharia de Software - FIAP/SP (Turmas W && X), 2024. 
 
-Por: Professor Fellipe Souto.
-
-## Árvore de Projetos
+- Autor: Professor Fellipe Souto.
+- Email de contato: proffellipe.souto@fiap.com.br
 
 ## Árvore de projetos
 - [Checkpoint 1     :: Compressão de dados gênicos](./checkpoint_1/PROBLEM.md)
