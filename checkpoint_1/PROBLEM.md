@@ -1,5 +1,6 @@
-# Problema: Compressão de dados gênicos
+# Checkpoint 1
 
+- Problema: Compressão de dados gênicos
 - Grupo: 2 a 4 pessoas
 - Data de liberação: 24/09/2024
 - Deadline de entrega: 18/10/2024 
@@ -18,7 +19,7 @@ Imagine que você foi contratado como Engenheiro de Software por uma empresa de 
 >
 > Fonte: [Compressão de dados - Wikipedia](https://pt.wikipedia.org/wiki/Compress%C3%A3o_de_dados)
 
-Pensando que a Sprint do trabalho tem duas semanas de duração e nosso chefe pediu uma versão preliminar em Java, sua tarefa será desenvolver um algoritmo de compressão de dados, que comprima um arquivo de texto contendo cadeia longa de nucleotídeos em um arquivo menor, sem perda de dados.
+Pensando que a Sprint do trabalho tem quatro semanas de duração e nosso chefe pediu uma versão preliminar em Java, sua tarefa será desenvolver um algoritmo de compressão de dados, que comprima um arquivo de texto contendo cadeia longa de nucleotídeos em um arquivo menor, sem perda de dados.
 
 Para esse projeto implementaremos um algoritmo bem simples, conhecido como "Run-Length Encoding (RLE)". 
 
@@ -198,3 +199,7 @@ O relatório deve ser escrito em markdown (https://www.markdownguide.org/) diret
 - Tirem dúvidas por e-mail comigo, costumo responder rápido
 - Conversem entre vocês, mas não copiem um dos outros, isso também é plágio ;) .
 - Se divirtam, esse é o objetivo final da ciência e desse trabalho:) .
+
+## Atualizações
+
+- Mudamos o dia de entrega de 08/10/2024 para 18/10/2024
