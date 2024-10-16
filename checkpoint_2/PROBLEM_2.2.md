@@ -1,4 +1,4 @@
-# Problema 3.1
+# Problema 2.2
 
 ## Sprint 2
 
