@@ -1,7 +1,6 @@
-# Problema 2.2
+# Checkpoint 2.2
 
-## Sprint 2
-
+- Problema: API para cálculo de similaridade gênica
 - Grupo: 2 a 4 pessoas
 - Data de publicação: 15/10/2024
 - Data limite de entrega: 11/11/2024
@@ -64,3 +63,7 @@ OUTPUT SCHEMA:
     "updated_at": "2024-10-15T19:30:59.000000 (GMT-03:00)"
 }
 ```
+
+Esse trabalho será desenvolvido por mim em sala de aula e replicada por vocês. Cada pessoa deve tentar implementar sua própria versão e commitar em uma Branch separada do grupo. Todos devem discutir e chegar a um consenso sobre qual implementação será aceita, lidando com possíveis conflitos de design no código.
+
+O principal ponto avaliado nesse trabalho será a colaboração que vocês tiveram no github.

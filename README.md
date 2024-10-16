@@ -5,5 +5,8 @@ Por: Professor Fellipe Souto.
 
 ## Árvore de Projetos
 
-1. [CHk_1 :: Problema: Compressão de dados gênicos](checkpoint_1/PROBLEM.md)
-
+## Árvore de projetos
+- [Checkpoint 1     :: Compressão de dados gênicos](./checkpoint_1/PROBLEM.md)
+- [Checkpoint 2.1   :: Geração aleatória de cadeias de nucletídeos](./checkpoint_2/PROBLEM_2.1.md)
+- [Checkpoint 2.2   :: API para cálculo de similaridade gênica](./checkpoint_2/PROBLEM_2.2.md)
+- [Checkpoint 3     :: TBD](./checkpoint_3/PROBLEM.md)

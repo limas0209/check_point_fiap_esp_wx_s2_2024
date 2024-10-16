@@ -1,9 +1,10 @@
-# Problema 2.1
+# Checkpoint 2.1
 
-## Sprint 1
-
--  Data de publicação: 04/10/2024
--  Data limite de entrega: 18/10/2024
+- Problema: Geração aleatória de cadeias de nucletídeos
+- Grupo: 2 a 4 pessoas
+- Data de publicação: 04/10/2024
+- Data limite de entrega: 18/10/2024
+- Email de contato: proffellipe.souto@fiap.com.br
 
 Continuando nossa saga trabalhando com cadeias de nucleotídeos, agora precisamos de uma forma prática de gerar cadeias aleatórias de qualquer tamanho que quisermos.
 

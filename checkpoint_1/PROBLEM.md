@@ -1,6 +1,6 @@
-# Problema: Compressão de dados gênicos
+# Checkpoint 1
 
-## Sprint 1
+- Problema: Compressão de dados gênicos
 - Grupo: 2 a 4 pessoas
 - Data de liberação: 24/09/2024
 - Deadline de entrega: 18/10/2024 
