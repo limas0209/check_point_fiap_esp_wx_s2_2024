@@ -1,0 +1,22 @@
+LIB UNCLE PRESSER - GRUPO BATATA-DOCE
+----------------------------------------------------
+INPUT FILENAME: input1.txt
+OUTPUT FILENAME: OUTPUT1.TXT
+----------------------------------------------------
+INPUT FILE SIZE: 1,3KB
+TOTAL INPUT CHARACTERS: 1320
+----------------------------------------------------
+FREQUENCIES:
+A: 924 (70,00%) 
+C: 132 (10,00%) 
+T: 132 (10,00%) 
+G: 132 (10,00%) 
+----------------------------------------------------
+OPTIONS:
+ALGORITHM: Run-Length Encoding (RLE)
+TEXT-CODIFICATION: UTF-8
+COMPRESSION RATE: ~49%
+----------------------------------------------------
+OUTPUT FILE SIZE: 0 BYTES
+----------------------------------------------------
+SCORE: WELL-DONE
