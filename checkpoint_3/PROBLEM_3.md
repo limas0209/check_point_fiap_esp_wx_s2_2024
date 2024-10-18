@@ -1,4 +1,4 @@
-# Checkpoint 2.2
+# Checkpoint 3
 
 - Problema: API para cálculo de similaridade gênica
 - Grupo: 2 a 4 pessoas
@@ -67,3 +67,7 @@ OUTPUT SCHEMA:
 Esse trabalho será desenvolvido por mim em sala de aula e replicada por vocês. Cada pessoa deve tentar implementar sua própria versão e commitar em uma Branch separada do grupo. Todos devem discutir e chegar a um consenso sobre qual implementação será aceita, lidando com possíveis conflitos de design no código.
 
 O principal ponto avaliado nesse trabalho será a colaboração que vocês tiveram no github.
+
+# Atualizações
+
+- 18/10: Transformei o checkpoint 2.2 em checkpoint 3

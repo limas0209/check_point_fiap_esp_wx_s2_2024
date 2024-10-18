@@ -1,9 +1,9 @@
-# Checkpoint 2.1
+# Checkpoint 2
 
 - Problema: Geração aleatória de cadeias de nucletídeos
 - Grupo: 2 a 4 pessoas
 - Data de publicação: 04/10/2024
-- Data limite de entrega: 18/10/2024
+- Data limite de entrega: 11/11/2024
 - Email de contato: proffellipe.souto@fiap.com.br
 
 Continuando nossa saga trabalhando com cadeias de nucleotídeos, agora precisamos de uma forma prática de gerar cadeias aleatórias de qualquer tamanho que quisermos.
@@ -39,3 +39,22 @@ saída: ACTG
 entrada: 4
 saída: GTCAACTG
 ```
+
+
+## Execução do programa
+A execução do nosso programa receberadois argumentos:
+
+```bash
+$ java -jar <path/to/jar/file> size:<numero-inteiro-maior-que-zero> output:<nome-do-arquivo-de-saida>.txt
+```
+
+O parâmetro `size:<numero-inteiro-maior-que-zero>` deverá ser uma entrada do seu programa e utilizada para definir o tamanho da sequência que será gerada.
+
+O parâmetro `output:<nome-do-arquivo-de-saida>.txt` deverá ser outra entrada do seu programa e utilizada para definir o nome do arquivo de saída, com extensão **.txt**.
+
+
+## Atualizações
+
+- 18/10/2024: Mudamos o dia de entrega de 18/10/2024 para 11/11/2024
+- 18/10/2024: O Checkpoint 2.1 virou o 2
+- 18/10/2024: Adicionei a seção **Execução do programa**
