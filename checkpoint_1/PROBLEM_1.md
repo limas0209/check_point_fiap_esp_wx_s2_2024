@@ -202,5 +202,5 @@ O relatório deve ser escrito em markdown (https://www.markdownguide.org/) diret
 
 ## Atualizações
 
-- Mudamos o dia de entrega de 08/10/2024 para 18/10/2024
+- 01/10/2024: Mudamos o dia de entrega de 08/10/2024 para 18/10/2024
 - 18/10/2024: Mudamos o dia de entrega de 18/10/2024 para 11/11/2024
