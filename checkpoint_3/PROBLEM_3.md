@@ -22,7 +22,7 @@ INPUT SCHEMA:
     "tracing_uuid": "8fbf1e92-032c-4172-93ce-a5e56a708dd7",
     "format": "plain_text",
     "method": "DEFAULT",
-    sequences: [
+    "sequences": [
         {
             "sequence_uuid": "5edd3a6b-7a50-4fe1-9abd-7766bdc5779f",
             "sequence": "ACTGACTGACTG"
@@ -30,7 +30,7 @@ INPUT SCHEMA:
         {
             "sequence_uuid": "d60e0c41-0926-481d-a468-f68bc224ecde",
             "sequence": "ACTGACTGACTT"
-        },
+        }
     ]
 }
 
