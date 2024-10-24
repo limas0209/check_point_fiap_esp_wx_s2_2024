@@ -27,10 +27,44 @@ public class HammingDistance extends BaseDistance {
     @Override
     public DistanceResult run(DistanceInput input) {
         List<SequenceInput> sequences = input.getSequences();
-        // calcular a similaridade usando o meu DistanceInput
-        // preparar os dados de saída dentro do DistanceResult
-        // criar um builder para essa classe
-        return null;
+        
+        String sequenceA = sequences.get(0).getSequence();
+        String sequenceB = sequences.get(1).getSequence();
+        Double distanceScore = 0.0;
+        Double similarityScore = 0.0;
+        Double processingTime = 3.14;
+        List<String> observations = List.of(
+            "Naiva implementation of Hamming Distance for small inputs, be aware! The int primitive type is a signed 32 bits from -2147483648 to 2147483647"
+        );
+        // s1 = A C T G A C T G
+        // s2 = A C T G A A A A
+
+        // distanceScore => 3
+        // similarityScore => 1 - 3/8 = 0.625
+
+        // |s1| == |s2|
+
+        // TODO: Tratar essa exception direito, não explodir um erro bizarro na cara do usuário!
+        if (sequenceA.length() != sequenceB.length()) {
+            throw new IllegalArgumentException("Both string need to have the same length!\nSequence A :" + sequenceA + "\nSequence B: " + sequenceB);
+        }
+
+        for (int i = 0; i < sequenceA.length(); i++) {
+            if (sequenceA.charAt(i) != sequenceB.charAt(i)) {
+                distanceScore++;
+            }
+        }
+
+        similarityScore = 1 - (distanceScore/sequenceA.length());
+
+        return new DistanceResult(
+            distanceScore, 
+            similarityScore, 
+            observations, 
+            sequenceA.length(), 
+            input.getFormat(), 
+            processingTime
+        );
     }
     
 }

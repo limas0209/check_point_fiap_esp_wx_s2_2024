@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.fiap.twoespwx.libunclealegnment.api.input.DistanceInput;
+import br.com.fiap.twoespwx.libunclealegnment.core.DistanceResult;
 import br.com.fiap.twoespwx.libunclealegnment.service.DistanceService;
 
 
@@ -14,7 +15,7 @@ import br.com.fiap.twoespwx.libunclealegnment.service.DistanceService;
 @RequestMapping("/v1/alignment")
 public class AlignmentController {
 
-    private DistanceService distanceService;
+    private final DistanceService distanceService;
     
     public AlignmentController(DistanceService distanceService) {
         this.distanceService = distanceService;
@@ -26,8 +27,8 @@ public class AlignmentController {
     }
 
     @PostMapping("/distance")
-    public Double distance(@RequestBody DistanceInput input) {
-        Double result = distanceService.calculate(input);
+    public DistanceResult distance(@RequestBody DistanceInput input) {
+        DistanceResult result = distanceService.calculate(input);
         return result;
     }
     

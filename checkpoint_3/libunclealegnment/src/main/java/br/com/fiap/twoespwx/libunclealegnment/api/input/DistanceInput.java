@@ -28,7 +28,15 @@ public class DistanceInput {
         return this.sequences;
     }
 
-    
+    public UUID getTracing_uuid() {
+        return tracing_uuid;
+    }
 
-    
+    public String getFormat() {
+        return format;
+    }
+
+    public String getMethod() {
+        return method;
+    }
 }

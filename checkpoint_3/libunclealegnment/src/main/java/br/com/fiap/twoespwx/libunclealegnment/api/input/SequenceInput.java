@@ -15,4 +15,10 @@ public class SequenceInput {
     public String toString() {
         return "SequenceInput [sequence_uuid=" + sequence_uuid + ", sequence=" + sequence + "]";
     }
+
+    public String getSequence() {
+        return sequence;
+    }
+
+    
 }
