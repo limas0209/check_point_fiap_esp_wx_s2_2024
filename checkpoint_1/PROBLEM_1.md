@@ -3,7 +3,7 @@
 - Problema: Compressão de dados gênicos
 - Grupo: 2 a 4 pessoas
 - Data de liberação: 24/09/2024
-- Deadline de entrega: 18/10/2024 
+- Deadline de entrega: 11/11/2024 
 - Email de contato: proffellipe.souto@fiap.com.br
 
 Imagine que você foi contratado como Engenheiro de Software por uma empresa de bioinformática para desenvolver um software que seja capaz de comprimir dados. Pegando a definição do artigo do Wikipédia, temos que:
@@ -202,4 +202,5 @@ O relatório deve ser escrito em markdown (https://www.markdownguide.org/) diret
 
 ## Atualizações
 
-- Mudamos o dia de entrega de 08/10/2024 para 18/10/2024
+- 01/10/2024: Mudamos o dia de entrega de 08/10/2024 para 18/10/2024
+- 18/10/2024: Mudamos o dia de entrega de 18/10/2024 para 11/11/2024
