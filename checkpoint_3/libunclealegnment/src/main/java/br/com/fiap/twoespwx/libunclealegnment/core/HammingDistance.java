@@ -29,7 +29,7 @@ public class HammingDistance extends BaseDistance {
     public DistanceResult run(DistanceInput input) {
 
         ExperimentTimer timer = new ExperimentTimer();
-        timer.start();
+        timer.start(); //t0;
 
         // TODO: Gerar um valor aleatório a cada execução
         sleep(2000);
@@ -65,8 +65,8 @@ public class HammingDistance extends BaseDistance {
 
         similarityScore = 1 - (distanceScore/sequenceA.length());
 
-        timer.stop();
-        processingTime = (double) (timer.getTime()); 
+        timer.stop(); // t1
+        processingTime = (double) (timer.getTime()); // delta(t) = t1 - t0
 
         return new DistanceResult(
             distanceScore, 
