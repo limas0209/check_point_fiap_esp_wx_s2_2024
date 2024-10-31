@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 
 import br.com.fiap.twoespwx.libunclealegnment.api.input.DistanceInput;
 import br.com.fiap.twoespwx.libunclealegnment.api.input.SequenceInput;
+import br.com.fiap.twoespwx.libunclealegnment.util.ExperimentTimer;
 
 @Component
 public class HammingDistance extends BaseDistance {
@@ -26,13 +27,20 @@ public class HammingDistance extends BaseDistance {
 
     @Override
     public DistanceResult run(DistanceInput input) {
+
+        ExperimentTimer timer = new ExperimentTimer();
+        timer.start();
+
+        // TODO: Gerar um valor aleatório a cada execução
+        sleep(2000);
+
         List<SequenceInput> sequences = input.getSequences();
         
         String sequenceA = sequences.get(0).getSequence();
         String sequenceB = sequences.get(1).getSequence();
         Double distanceScore = 0.0;
         Double similarityScore = 0.0;
-        Double processingTime = 3.14;
+        Double processingTime;
         List<String> observations = List.of(
             "Naiva implementation of Hamming Distance for small inputs, be aware! The int primitive type is a signed 32 bits from -2147483648 to 2147483647"
         );
@@ -57,6 +65,9 @@ public class HammingDistance extends BaseDistance {
 
         similarityScore = 1 - (distanceScore/sequenceA.length());
 
+        timer.stop();
+        processingTime = (double) (timer.getTime()); 
+
         return new DistanceResult(
             distanceScore, 
             similarityScore, 
@@ -65,6 +76,15 @@ public class HammingDistance extends BaseDistance {
             input.getFormat(), 
             processingTime
         );
+    }
+
+    private void sleep(long sleepTime) {
+        try {
+            Thread.sleep(sleepTime);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
     
 }

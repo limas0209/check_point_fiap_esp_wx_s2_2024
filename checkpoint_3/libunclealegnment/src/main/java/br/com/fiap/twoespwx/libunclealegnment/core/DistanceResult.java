@@ -9,7 +9,11 @@ public class DistanceResult {
     private List<String> observations; // "observations" : [],
     private Integer length; // "length": 16,
     private String format; // "format": "plain_text",
+
+    // TODO: Mudar de Double to Long
     private Double processing_time; // "processing_time": "0.005s"
+    
+    // TODO: Implementar isso de forma opcional no checkpoints, valendo pontos adicionais (Ideia)
     //private String created_at; // "created_at": "2024-10-15T19:30:59.823381 (GMT-03:00)"
     //private String status; // "status": "PROCESSED"
 
