@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import br.com.fiap.twoespwx.libunclealegnment.api.input.DistanceInput;
 import br.com.fiap.twoespwx.libunclealegnment.api.input.SequenceInput;
-import br.com.fiap.twoespwx.libunclealegnment.util.ExperimentTimer;
+import br.com.fiap.twoespwx.libunclealegnment.util.SleepMachine;
 
 @Component
 public class HammingDistance extends BaseDistance {
@@ -28,11 +28,7 @@ public class HammingDistance extends BaseDistance {
     @Override
     public DistanceResult run(DistanceInput input) {
 
-        ExperimentTimer timer = new ExperimentTimer();
-        timer.start(); //t0;
-
-        // TODO: Gerar um valor aleatório a cada execução
-        sleep(2000);
+        SleepMachine.sleep();
 
         List<SequenceInput> sequences = input.getSequences();
         
@@ -40,9 +36,8 @@ public class HammingDistance extends BaseDistance {
         String sequenceB = sequences.get(1).getSequence();
         Double distanceScore = 0.0;
         Double similarityScore = 0.0;
-        Double processingTime;
         List<String> observations = List.of(
-            "Naiva implementation of Hamming Distance for small inputs, be aware! The int primitive type is a signed 32 bits from -2147483648 to 2147483647"
+            "Naive implementation of Hamming Distance for small inputs, be aware! The int primitive type is a signed 32 bits from -2147483648 to 2147483647"
         );
         // s1 = A C T G A C T G
         // s2 = A C T G A A A A
@@ -65,26 +60,12 @@ public class HammingDistance extends BaseDistance {
 
         similarityScore = 1 - (distanceScore/sequenceA.length());
 
-        timer.stop(); // t1
-        processingTime = (double) (timer.getTime()); // delta(t) = t1 - t0
-
         return new DistanceResult(
             distanceScore, 
             similarityScore, 
             observations, 
             sequenceA.length(), 
-            input.getFormat(), 
-            processingTime
+            input.getFormat()
         );
     }
-
-    private void sleep(long sleepTime) {
-        try {
-            Thread.sleep(sleepTime);
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-    }
-    
 }
