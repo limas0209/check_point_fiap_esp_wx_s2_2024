@@ -5,11 +5,11 @@ import java.util.List;
 // TODO: Mudar para ExperimentResult
 public class DistanceResult {
     
-    private Double distanceScore; // "distance_score": 1.00,
-    private Double similarityScore; // "similarity_score": 0.9375,
-    private List<String> observations; // "observations" : [],
-    private Integer length; // "length": 16,
-    private String format; // "format": "plain_text",
+    private Double distanceScore;
+    private Double similarityScore;
+    private List<String> observations;
+    private Integer length;
+    private String format;
 
     // TODO: Encapsular o relógio dentro do experimento
     private Long processingTimeMs; // "processing_time": "0.005s"
@@ -61,6 +61,4 @@ public class DistanceResult {
     public void setProcessingTimeMs(Long processingTimeMs) {
         this.processingTimeMs = processingTimeMs;
     }
-
-    
 }

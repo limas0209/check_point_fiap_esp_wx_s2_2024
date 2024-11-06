@@ -3,17 +3,17 @@ package br.com.fiap.twoespwx.libunclealegnment.api.input;
 import java.util.UUID;
 
 public class SequenceInput {
-    private UUID sequence_uuid;
+    private UUID sequenceUuid;
     private String sequence;
 
-    public SequenceInput(UUID sequence_uuid, String sequence) {
-        this.sequence_uuid = sequence_uuid;
+    public SequenceInput(UUID sequenceUuid, String sequence) {
+        this.sequenceUuid = sequenceUuid;
         this.sequence = sequence;
     }
 
     @Override
     public String toString() {
-        return "SequenceInput [sequence_uuid=" + sequence_uuid + ", sequence=" + sequence + "]";
+        return "SequenceInput [sequenceUuid=" + sequenceUuid + ", sequence=" + sequence + "]";
     }
 
     public String getSequence() {

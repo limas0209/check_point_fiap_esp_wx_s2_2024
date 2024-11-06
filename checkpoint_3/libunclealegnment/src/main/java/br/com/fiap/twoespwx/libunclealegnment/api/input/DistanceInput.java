@@ -5,14 +5,13 @@ import java.util.UUID;
 
 public class DistanceInput {
     
-    private UUID tracing_uuid;
+    private UUID tracingUuid;
     private String format;
     private String method;
     private List<SequenceInput> sequences;
 
-    public DistanceInput(UUID tracing_uuid, String format, 
-        String method, List<SequenceInput> sequences) {
-        this.tracing_uuid = tracing_uuid;
+    public DistanceInput(UUID tracingUuid, String format, String method, List<SequenceInput> sequences) {
+        this.tracingUuid = tracingUuid;
         this.format = format;
         this.method = method;
         this.sequences = sequences;
@@ -20,7 +19,7 @@ public class DistanceInput {
 
     @Override
     public String toString() {
-        return "DistanceInput [tracing_uuid=" + tracing_uuid + ", format=" + format + ", method=" + method
+        return "DistanceInput [tracingUuid=" + tracingUuid + ", format=" + format + ", method=" + method
                 + ", sequences=" + sequences + "]";
     }
 
@@ -28,8 +27,8 @@ public class DistanceInput {
         return this.sequences;
     }
 
-    public UUID getTracing_uuid() {
-        return tracing_uuid;
+    public UUID getTracingUuid() {
+        return tracingUuid;
     }
 
     public String getFormat() {

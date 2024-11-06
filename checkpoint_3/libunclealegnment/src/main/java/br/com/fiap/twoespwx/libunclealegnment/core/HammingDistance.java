@@ -25,6 +25,18 @@ public class HammingDistance extends BaseDistance {
         super(HammingDistance.METHOD, HammingDistance.ABOUT, HammingDistance.REFERENCES);
     }
 
+    /*
+     *
+     * EXEMPLO PRÁTICO 
+     * s1 = A C T G A C T G
+     * s2 = A C T G A A A A
+     * 
+     * distanceScore => 3
+     * similarityScore => 1 - 3/8 = 0.625
+     * 
+     * Condição: |s1| == |s2|
+     * 
+     */
     @Override
     public DistanceResult run(DistanceInput input) {
 
@@ -36,16 +48,11 @@ public class HammingDistance extends BaseDistance {
         String sequenceB = sequences.get(1).getSequence();
         Double distanceScore = 0.0;
         Double similarityScore = 0.0;
-        List<String> observations = List.of(
-            "Naive implementation of Hamming Distance for small inputs, be aware! The int primitive type is a signed 32 bits from -2147483648 to 2147483647"
-        );
-        // s1 = A C T G A C T G
-        // s2 = A C T G A A A A
+        List<String> observations = List.of("""
+            Naive implementation of Hamming Distance for small inputs, be aware! 
+            The int primitive type is a signed 32 bits from -2147483648 to 2147483647
+        """);
 
-        // distanceScore => 3
-        // similarityScore => 1 - 3/8 = 0.625
-
-        // |s1| == |s2|
 
         // TODO: Tratar essa exception direito, não explodir um erro bizarro na cara do usuário!
         if (sequenceA.length() != sequenceB.length()) {
