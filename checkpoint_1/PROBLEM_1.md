@@ -179,6 +179,7 @@ Serão aceitos grupos de 2 a 4 pessoas, grupos individuais serão aceitos caso a
 - Completude do código
 - Tratamento de erros
 - Testes manuais e automatizados
+- Documentação do código e projeto
 
 E a do relatório seguirá os seguintes pontos:
 

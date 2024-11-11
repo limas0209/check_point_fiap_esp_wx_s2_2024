@@ -22,7 +22,7 @@ INPUT SCHEMA:
     "tracing_uuid": "8fbf1e92-032c-4172-93ce-a5e56a708dd7",
     "format": "plain_text",
     "method": "DEFAULT",
-    sequences: [
+    "sequences": [
         {
             "sequence_uuid": "5edd3a6b-7a50-4fe1-9abd-7766bdc5779f",
             "sequence": "ACTGACTGACTG"
@@ -30,7 +30,7 @@ INPUT SCHEMA:
         {
             "sequence_uuid": "d60e0c41-0926-481d-a468-f68bc224ecde",
             "sequence": "ACTGACTGACTT"
-        },
+        }
     ]
 }
 
@@ -68,6 +68,35 @@ Esse trabalho será desenvolvido por mim em sala de aula e replicada por vocês.
 
 O principal ponto avaliado nesse trabalho será a colaboração que vocês tiveram no github.
 
+## Diretrizes para entrega do trabalho:
+
+O presente trabalho terá sua nota dividida da seguinte forma:
+
+- CÓDIGO: 100% de Peso
+
+Serão aceitos grupos de 2 a 4 pessoas, grupos individuais serão aceitos caso a caso. A correção do código será feita levando em consideração os seguintes pontos:
+
+- Organização do código
+- Legibilidade do código
+- Corretudo do código
+- Completude do código
+- Tratamento de erros
+- Testes manuais e automatizados
+- Documentação do código e projeto
+
+O intuito desse trabalho era implementar toda a específicação apresentada acima. Entretanto, por conta do tempo só foi possível construir parte do projeto. O último commit feito em sala e que irei cobrar é o [cfeda072](https://github.com/fllsouto/check_point_fiap_esp_wx_s2_2024/commit/cfeda072892140e7defd1c359785a5043876c5a5), use ele como referência. Portanto, seu grupo deverá implementar o projeto até esse ponto, caso vocês queiram ir além e implementar mais coisas, fiquem a vontade, mas não se esqueçam de implementar primeiro o que foi dado em sala de aula.
+
+## Dicas e Considerações
+
+- Estude os commits e códigos produzidos nas aulas.
+- Discutam em grupo, apenas em consenso chegamos às melhores ideias.
+- Não use chatGPT ou qualquer tipo de IA/ML, chatbot, LLM ou coisa afim. Seu uso acarretará em zero para todo o grupo.
+- Não será tolerado plágios, um cientista de verdade compartilha e referencia suas fontes de forma correta. Não se constrói a Ciência de forma sozinha, apenas em comunidade. Faremos isso com cortêsia e consideração por aqueles que vieram antes de nós. Esse é o pensamento científico que adotaremos nessa e nas atividades futuras.
+- Tirem dúvidas por e-mail comigo, costumo responder rápido
+- Conversem entre vocês, mas não copiem um dos outros, isso também é plágio ;) .
+- Se divirtam, esse é o objetivo final da ciência e desse trabalho:).
+
 # Atualizações
 
 - 18/10: Transformei o checkpoint 2.2 em checkpoint 3
+- 10/11/2024: Adicionei a seção **Diretrizes para entrega do trabalho** e **Dicas e Considerações**

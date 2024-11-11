@@ -5,4 +5,4 @@ clean_folders:
 	mvn clean
 
 attach_docker:
-	docker container exec -it libunclesample-mysql bash
+	docker container exec -it libunclealegnmentdb-mysql bash
