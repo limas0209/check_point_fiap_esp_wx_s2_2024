@@ -8,6 +8,7 @@
  *      - Henrique Lima    -   riquelima00@gmail.com
  *      - Augusto Fisco Milreu     -   gutofisco@gmail.com
  *      - Kayque Moraes    -   kaymoaraesdias@gmail.com
+        - Anny Carolina Andrade Dias - annydiasandrade@gmail.com
  */
 
  package br.com.fiap.twoespwx.libunclepresser;
